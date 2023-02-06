@@ -1,48 +1,0 @@
-*{margin: 0; padding: 0;}
-body {
-	background: #EFEFEF;	color:#555555;	font-family: Arial, Verdana;	font-size:11pt;
-}
-
-/* =============  Start of Table Classes ==================*/
-
-
-.nothing {border-collapse: collapse;}.main_box {text-align:left; vertical-align:top;}.main_left {width:600px; border: 1px solid #CDCDCD; background-color:#FFFFFF; padding:20px; text-align:justify;}.main_right {width:300px; padding:0px; FONT-SIZE: 7pt; text-align:none;}.frame {float:inherit; border-collapse: collapse; padding:4px; border: 1px solid #CDCDCD; background-color:#FFFFFF;} .caption{text-align:left; vertical-align:top; text-align:none; FONT-SIZE: 10pt; padding:5px 0px 0px 10px;}.resource{text-align:left; vertical-align:top; text-align:none; FONT-SIZE: 11pt; padding:3px;}
-.inset_right{float:right; padding:3px 0px 7px 12px;}
-.inset_left{float:left;  padding:3px 12px 7px 0px}
-/* =============  End of Table Classes ==================*/
-
-
-/* =============  Start of Font Classes ==================*/.title {FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #444444; padding:0px 0px 7px 0px;}.grey {FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #606060; padding:0px 0px 7px 0px;}.blue {FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #558ED5; padding:0px 0px 7px 0px;}.address {FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #606060; padding:0px 0px 0px 0px;}.small {FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #555555;}.small_bold {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #555555;}.paper_year {FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #555555;}.news{FONT-WEIGHT: normal; FONT-SIZE: 11pt; COLOR: #EC6565;}
-
-/* =============  End of Font Classes ==================*/
-
-#menu {
-	padding: 0px;
-}
-/*- Nav Bar */
-#menu ul {
-	display: inline;
-	list-style: none;
-}
-#menu ul li {
-	display: inline;  /* these two lines are necessary for IE and Safari */
-	list-style: none;
-}
-#menu ul li a {
-	padding: 5px 10px 5px 10px;
-	color: #999999;
-	font-size: 10pt;
-	text-decoration: none;
-	float: left;
-}
-#menu ul li a:hover {
-	background-color: #EFEFEF;
-	color: #999999;
-}
-a:link		{color:#558ED5; text-decoration:none;}
-a:visited	{color:#558ED5; text-decoration:none;}
-a:active	{color:#558ED5; text-decoration:none;}
-a:hover     {color:orange; text-decoration:none;}
-
-a img{border:none;}
-
